@@ -189,25 +189,8 @@ h3{
 
 
 
-/* media query starts here */
-@media screen and (max-width: 500px) {
-    header {
-        flex-direction: column;
-    }
-    header div {
-        margin-left: 3.5rem;
-    }
-    header div h2, header div p, header img {
-        width: 100%;
-    }
-    section{
-        padding: 50px 20px 50px 50px;
-    }
-    section .container {
-        flex-direction: column;
-    }
-    section p{         
-        width: 100%;
-    }
+
+@media  screen and (max-width: 500px) {
+    width: 100%;
 }
 
